@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>ProgressTracks survey form</title>
+</head>
+<body>
+    <h1 id="title">ProgressTracks Survey From</h1>
+    <p>Your feedback is greatly appreciated as we strive to enhance our platform.</p>
+    <form id="survey-form" method="" action="">
+        <label for="fullName">Name<input id="fullName" name="fullName" type="text" 
+        placeholder="Enter your full name"
+        required></label>
+        <label for="email">Email<input id="email" name="email" type="email" 
+        placeholder="Enter your email"
+        required></label>
+        <label for="age">Age (optional)<input id="age" name="age" type="number" 
+        placeholder="Enter your age"
+        ></label>
+        <label>Which option best describes your current role?
+            <select name="dropdown" id="dropdown">
+                <option value="">Select current role</option>
+                <option value="1">Student</option>
+                <option value="2">Full time job</option>
+                <option value="3">Prefer not to say</option>
+                <option value="4">Other</option>
+            </select>
+        </label>
+        <legend>How satisfied are you with our product/service on a scale of 1 to 5?
+        </legend>
+        <label for="satisfied"><input value="1" id="satisfied" name="satisfied" type="radio">1</label>
+        <label for="satisfied"><input value="2" id="satisfied" name="satisfied" type="radio">2</label>
+        <label for="satisfied"><input value="3" id="satisfied" name="satisfied" type="radio">3</label>
+        <label for="satisfied"><input value="4" id="satisfied" name="satisfied" type="radio">4</label>
+        <label for="satisfied"><input value="5" id="satisfied" name="satisfied" type="radio">5</label>
+        <legend>how likely are you to recommend our product/service to a friend or colleague?</legend>
+    </form>
+</body>
+</html>
