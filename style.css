@@ -1,0 +1,16 @@
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-image: linear-gradient( rgba(4, 21, 44, 0.661) 100%, rgba(4, 21, 44, 0.40) 100%), url('./bg.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    color: snow;
+  }
+  
+  #title {
+    text-align: center;
+  }
+  
