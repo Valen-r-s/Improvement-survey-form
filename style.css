@@ -1,16 +1,69 @@
-html {
+body {
     margin: 0;
     padding: 0;
     height: 100%;
+    width: 100%;
     background-image: linear-gradient( rgba(4, 21, 44, 0.661) 100%, rgba(4, 21, 44, 0.40) 100%), url('./bg.jpg');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    font-family: Arial, sans-serif;
     color: snow;
-  }
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif}
   
-  #title {
-    text-align: center;
-  }
+#title, p {
+  margin: 1em auto;
+  text-align: center;
+}
   
+form{
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}
+
+#satisfied, #recommend, #aspects{
+  margin: 10px 0 0 0;
+  width: 10%;
+  min-height: 2em;
+}
+
+input, textarea {
+  background-color: #0a0a23;
+  border: 1px solid #0a0a23;
+  color: #ffffff;
+}
+
+
+input[type="submit"] {
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: #212147;
+  border-color: white;
+  min-width: 300px; 
+} 
+
+label #terms-conditions{
+  width: 50px;
+}
+
+a{
+  color: papayawhip;
+}
