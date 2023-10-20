@@ -48,6 +48,9 @@ input, textarea {
   color: #ffffff;
 }
 
+input:hover{
+  cursor: pointer;
+}
 
 input[type="submit"] {
   display: block;
